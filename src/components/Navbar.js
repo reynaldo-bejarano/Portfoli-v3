@@ -11,8 +11,8 @@ const Navbar = () => {
     }
 
     return (
-        <header>
-            <div className='h-16 flex justify-between items-center md:px-0'>
+       
+            <div className='h-16 flex justify-between items-center md:px-0 '>
                 <div className='text-xl font-bold text-slate-800'>
                     <Link to='/'>Portfolio</Link>
                 </div>
@@ -38,9 +38,8 @@ const Navbar = () => {
                     </ul>
                 </nav>
                 <Hamburger onClick={handleMenuClick} />
-
             </div>
-        </header>
+     
     )
 }
 

@@ -16,7 +16,9 @@ const Base = () => {
 
             </div>
             <div>
-                <img src={imageJavascript} alt="js-img" className='w-[60px] h-[60px]'></img>
+                <div className='flex justify-center'>
+                    <img src={imageJavascript} alt="js-img" className='w-[60px] h-[60px]'></img>
+                </div>
                 <p className='font-bold py-2 text-center'>Javascript</p>
             </div>
 
