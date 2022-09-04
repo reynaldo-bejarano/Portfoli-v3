@@ -7,7 +7,7 @@ const Projects = () => {
     return (
         <div id="projects">
             <img className='hidden lg:block' src={dottedLines} alt="dotted-lines"></img>
-            <h3 className='text-4xl text-slate-700 font-bold text-center pt-20'>Some Things <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-400'>I’ve Built</span> </h3>
+            <h3 className='text-4xl text-slate-700 dark:text-slate-700 font-bold text-center pt-20'>Some Things <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-400 dark:from-blue-900 dark:to-blue-400'>I’ve Built</span> </h3>
             <SuperMario />
         </div>
     )

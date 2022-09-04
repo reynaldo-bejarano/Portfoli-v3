@@ -13,9 +13,9 @@ const SuperMario = () => {
                 <h4 className='text-right font-bold text-md 2xl:text-xl pb-1 text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-400'>Featured Project</h4>
                 <h3 className='text-right text-xl 2xl:text-2xl pb-5 font-bold'>Super Mario 3D World</h3>
                 <div className='p-5 bg-red-800 rounded-md'>
-                    <p className='text-right text-white text-sm 2xl:text-lg'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    <p className='text-right text-white text-sm 2xl:text-lg'>Website inspired by the video game Super Mario 3D World of Nintendo, created with HTML, Javascript and Tailwind CSS framework.</p>
                 </div>
-                <p className='text-right 2xl:text-lg py-3 text-slate-500'>VS Code | Tailwind | Html 5</p>
+                <p className='text-right 2xl:text-lg py-3 text-slate-500'>VS Code |  Html 5 | Tailwind |</p>
             </div>
         </div>
     )

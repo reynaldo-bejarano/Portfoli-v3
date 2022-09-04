@@ -7,5 +7,11 @@
     body {
         font-family: 'Red Hat Text', sans-serif;
         background-color: #fafcfc;
+        scroll-behavior: smooth;
+     
     }
+    html{
+        scroll-behavior: smooth;
+    }
+    
 }

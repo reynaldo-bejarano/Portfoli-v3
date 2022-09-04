@@ -8,7 +8,7 @@ import Platform from './Platform'
 const KnowledgeItems = ({ text }) => {
 
     return (
-        <div className='flex justify-center items-center gap-20 2xl:gap-32'>
+        <div className='flex justify-center items-center gap-10 md:gap-20 2xl:gap-32'>
             {text === "base" && <Base />}
             {text === "framework" && <Framework />}
             {text === "library" && <Library />}
